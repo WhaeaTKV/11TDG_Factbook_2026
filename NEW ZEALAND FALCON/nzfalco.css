@@ -1,0 +1,43 @@
+h1 {
+    color: rgb(1, 0, 5);
+}
+
+:root {
+    --primary-color: rgba(1, 0, 5, 0.939);
+    --secondary-color: rgba(255, 255, 255, 0.939);
+    --background-color: rgba(240, 240, 240, 0.939);
+}
+
+* {
+    margin: 0em;
+    padding: center;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', serif;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+body  {
+    padding: 1em;
+    background-color: var(--background-color);
+    
+}
+
+
+
+li
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.image.rounded {
+    border-radius: 7px;
+    border : 3px solid rgba(234, 193, 14, 0.932);
+}
+
