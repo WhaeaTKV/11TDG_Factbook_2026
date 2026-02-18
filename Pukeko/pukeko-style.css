@@ -13,7 +13,7 @@ li {
     }
 
 .box { 
-    width: 750px;
+    width: 800px;
     height: 350px;
     background-color: hsl(248, 57%, 29%);
     border: 15px solid  hsl(248, 57%, 29%);
@@ -21,7 +21,7 @@ li {
     }
     
 .box2 { 
-    width: 700px;
+    width: 760px;
     height: 200px;
     background-color: aliceblue;
     border: 5px solid aliceblue;
