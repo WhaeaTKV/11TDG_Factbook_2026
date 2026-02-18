@@ -1,4 +1,4 @@
-/*The colour scheme comes from the Bisexual and Pansexual LGBTQIA+ flags.
+/*The colour scheme comes from the Bisexual, Transgender and Pansexual LGBTQIA+ flags.
 I am completely unbiased in my opinion of these colour schemes.*/
 /*HTML*/
 h1 {
@@ -6,6 +6,18 @@ h1 {
 }
 p {
     font-family: 'Times New Roman', Times, serif;
+}
+#Navbar li {
+    float: left;
+}
+#Navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+#Navbar li a:hover {
+    background-color: #F5A9B8;
 }
 /*Classes*/
 .roundImg {
@@ -63,4 +75,11 @@ p {
 }
 #homeAnchor {
     text-decoration: none;
+}
+#Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5BCEFA;
 }
