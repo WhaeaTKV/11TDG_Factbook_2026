@@ -1,0 +1,85 @@
+/*The colour scheme comes from the Bisexual, Transgender and Pansexual LGBTQIA+ flags.
+I am completely unbiased in my opinion of these colour schemes.*/
+/*HTML*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+#Navbar li {
+    float: left;
+}
+#Navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+}
+#Navbar li a:hover {
+    background-color: #F5A9B8;
+}
+/*Classes*/
+.roundImg {
+    width: 300px;
+    border-radius:100%;
+}
+.creditHeader {
+    color: grey;
+    font-style: italic;
+    text-decoration: underline;
+}
+.infoBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+
+    width: 500px;
+    border-style: solid;
+    border-width:7px;
+    border-color:#FFDA00;
+    border-radius: 15px;
+    background-color:  #1BB3FF;
+    padding: 7px;
+}
+.imageBox {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+
+    width: 500px;
+    padding: 7px;
+}
+/*IDs*/
+#elementList {
+    display: flex;
+    flex-flow: row wrap;
+    margin:auto;
+    gap: 30px;
+
+    width: 1100px;
+}
+#home {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 4px;
+    border-color: #D60270;
+    background-color:#9B4F96;
+    width: 124px;
+    
+    color: white;
+    text-decoration: none;
+
+    padding: 0px 4px 0px 4px;
+}
+#homeAnchor {
+    text-decoration: none;
+}
+#Navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5BCEFA;
+}
